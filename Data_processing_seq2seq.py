@@ -178,6 +178,7 @@ def run(input_size, target_size, combine_csv, addition_randomized_dataset):
                             result_file_name, sequenced_connection_path_data, input_size, target_size)
 
         #print(log_cnt)
+    
     # Additional Collection
     for csv_file in glob.glob(raw_data_path):
         processed_list = raw_type_converter(csv_file)

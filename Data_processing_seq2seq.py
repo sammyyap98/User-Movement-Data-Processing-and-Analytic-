@@ -141,7 +141,7 @@ def run(input_size, target_size, combine_csv, addition_randomized_dataset):
 
 
 
-
+    # path
     path_2019 = processed_data_path + "2019\\" + \
         str(target_size) + "sequence"
     path_2020 = processed_data_path +"2020\\" + \

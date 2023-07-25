@@ -93,7 +93,7 @@ def run(input_size, target_size, combine_csv, addition_randomized_dataset):
         # print(connection_map)
         return connection_map
 
-
+    ### map acess point to one hot vector
     ap_number_onehot_mapping_list = [[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                                 [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                                 [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],

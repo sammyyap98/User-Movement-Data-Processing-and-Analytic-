@@ -108,7 +108,7 @@ def run(input_size, target_size, combine_csv, addition_randomized_dataset):
                                 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
                                 '\n', '\t']
 
-
+    ## ap to char
     def convert_ap_number_to_char(sequence_path_list):
         temp = []
         for ap in sequence_path_list:
